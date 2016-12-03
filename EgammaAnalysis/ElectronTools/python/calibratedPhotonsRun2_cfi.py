@@ -4,7 +4,9 @@ import FWCore.ParameterSet.Config as cms
 correctionType = "80Xapproval"
 files = {"Prompt2015":"EgammaAnalysis/ElectronTools/data/ScalesSmearings/74X_Prompt_2015",
          "76XReReco" :"EgammaAnalysis/ElectronTools/data/ScalesSmearings/76X_16DecRereco_2015_Etunc",
-         "80Xapproval" : "EgammaAnalysis/ElectronTools/data/ScalesSmearings/80X_ichepV2_2016_pho"}
+         "80Xapproval" : "EgammaAnalysis/ElectronTools/data/ScalesSmearings/80X_ichepV2_2016_pho",
+         "Full2016_v1" : "EgammaAnalysis/ElectronTools/data/ScalesSmearings/Winter_2016_reReco_v1_ele"}
+
 
 calibratedPatPhotons = cms.EDProducer("CalibratedPatPhotonProducerRun2",
 
